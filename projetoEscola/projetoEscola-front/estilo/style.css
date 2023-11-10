@@ -1,0 +1,74 @@
+/*.color1 {color: #bcb290;} bege escuro
+.color2 {color: #cec9a7;} bege claro
+.color3 {color: #3f5c83;}azul mais escuro
+.color4 {color: #768cad;}azul claro
+.color5 {color: #eef4f6;}super claro*/
+
+body {
+  background-color:#eef4f6;
+}
+html, body {
+  height:100%;
+}
+html {
+  display:table;
+  width:100%;
+}
+body {
+  display:table-cell;
+  text-align:center;
+  vertical-align:middle;
+}
+@media (max-width: 1920px){
+  .container {
+    width: 1230px;
+  }
+}
+
+@media (max-width: 992px){
+  .container {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+
+.container {
+   position: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1{
+  color:#3f5c83 ;
+}
+h2{
+  color: #768cad;
+}
+.aluno, .funcionario, .enviar{
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background: #cec9a7;
+  border: none;
+  border-radius: 4px;
+  color: #3f5c83;
+  cursor: pointer;
+  position: center;
+}
+form {
+  padding: 20px;
+}
+label, option{
+  position: fixed;
+  display: block;
+  margin: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input, select{
+font-size: 1rem;
+margin: 5px 0; /* Adicionei uma margem no topo e na base do campo de entrada */
+padding: 5px;
+width: 50%;
+border: 1px solid #ccc;
+border-radius: 5px;}
